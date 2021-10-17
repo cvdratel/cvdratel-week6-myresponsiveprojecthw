@@ -1,0 +1,79 @@
+body{
+	background: url(https://alvaromontoro.com/images/blog/css-29.png);
+	background-position: center;
+}
+.text-wrapper{
+	font-size: 70px;
+	text-align: 90%;
+	transform: translate(-1.5px, -300px, 590px);
+	margin-top: -90px; 
+	margin-left: 420px;
+	display: flex;
+	font-family: sans-serif;
+	
+} 
+h5{
+	border: 10px solid grey;
+	box-shadow: 10px solid grey;
+	border-radius: 0%;
+	color: gold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#mickey {
+	margin:0 auto;
+	position: relative;
+	width:850px;
+	height:879px;
+	opacity: 100%;
+	
+}
+
+#mickey * {
+	position: absolute;
+}
+.head {
+	background-color: black;
+	width: 510px;
+	height: 525px;
+	border-radius: 50%;
+	top:260px;
+	left: 165px;
+}
+
+.ear {
+	background-color: black;
+	width:280px;
+	height: 350px;
+	border-radius: 50%;
+}
+
+.ear.left {
+	top: 50px;
+	left:50px;
+	transform: rotate(20deg);
+}
+
+.ear.right {
+	top:50px;
+	right:50px;
+	transform:rotate(-20deg);
+}
+.face{
+	position: relative;
+	width: 520px;
+	height: 530px;
+	top:280px;
+	left:170px;
+}
+.head1{
+		fill: red;
+	}
+.head1.hover{
+	opacity: 1;
+	filter: url(#blur);
+}
+@media screen and (min-width: 40px){
+    #mickey{
+        font-size: var(--h2-lg);
+    }
